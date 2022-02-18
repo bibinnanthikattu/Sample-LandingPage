@@ -11,6 +11,7 @@ html , body {
     padding: 0;
     font-size: 16px;
     box-sizing: border-box !important;
+    background-color: var(--bg-color);
     
 }
 /* Navbar */
@@ -35,12 +36,24 @@ html , body {
   }
   /* hero section */
 
-
 .btn {
-
     background-color: var(--secondary-color);
     color: var(--bg-color);
 }
-.col-lg {
-    font-size: 4rem;
+/* carousel section */
+.carousel {
+    width: 50%;
+    margin: 0 auto;
+}
+.carousel-inner {
+    background-color: black;
+}
+.carousel-item img{
+    opacity: 0.5;
+}
+.carousel-indicators button {
+    background-color: var(--secondary-color) !important;
+}
+.carousel-control-next-icon , .carousel-control-prev-icon {
+    background-color: var(--secondary-color) !important;
 }
