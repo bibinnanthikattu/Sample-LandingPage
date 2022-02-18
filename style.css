@@ -12,7 +12,7 @@ html , body {
     font-size: 16px;
     box-sizing: border-box !important;
     background-color: var(--bg-color);
-    
+    color: var(--bg-color);
 }
 /* Navbar */
 .nav {
@@ -56,4 +56,26 @@ html , body {
 }
 .carousel-control-next-icon , .carousel-control-prev-icon {
     background-color: var(--secondary-color) !important;
+}
+/* about section */
+.heading {
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    color: var(--highlight-color);
+}
+.content_heading {
+    color: var(--secondary-color);
+    text-transform: capitalize;
+}
+.course_list {
+    list-style: none;
+}
+.course_list li::before{
+    content: '\2022';
+    color: var(--highlight-color);
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+
 }
