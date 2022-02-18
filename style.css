@@ -14,6 +14,11 @@ html , body {
     background-color: var(--bg-color);
     color: var(--bg-color);
 }
+.heading {
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: var(--highlight-color);
+}
 /* Navbar */
 .nav {
     background-color: var(--primary_color);
@@ -58,11 +63,7 @@ html , body {
     background-color: var(--secondary-color) !important;
 }
 /* about section */
-.heading {
-    font-size: 1.4rem;
-    text-transform: capitalize;
-    color: var(--highlight-color);
-}
+
 .content_heading {
     color: var(--secondary-color);
     text-transform: capitalize;
@@ -97,4 +98,12 @@ html , body {
 }
 .card-body {
     background-color: var(--primary_color);
+}
+/* contact */
+.fa-solid {
+    color: var(--secondary-color);
+}
+
+iframe {
+    height: 32em;
 }
