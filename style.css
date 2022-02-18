@@ -67,8 +67,18 @@ html , body {
     color: var(--secondary-color);
     text-transform: capitalize;
 }
+.about_course{
+    box-sizing: border-box;
+}
 .course_list {
     list-style: none;
+    box-sizing: border-box;
+
+
+}
+.course_list li {
+    box-sizing: border-box;
+
 }
 .course_list li::before{
     content: '\2022';
@@ -77,5 +87,14 @@ html , body {
     display: inline-block; 
     width: 1em;
     margin-left: -1em;
+    box-sizing: border-box;
 
+
+}
+/* testimonial section */
+.testimonial {
+    color: var(--primary_color);
+}
+.card-body {
+    background-color: var(--primary_color);
 }
