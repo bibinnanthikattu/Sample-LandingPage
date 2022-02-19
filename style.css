@@ -19,6 +19,7 @@ html , body {
     text-transform: capitalize;
     color: var(--highlight-color);
 }
+
 /* Navbar */
 .nav {
     background-color: var(--primary_color);
@@ -44,6 +45,11 @@ html , body {
 .btn {
     background-color: var(--secondary-color);
     color: var(--bg-color);
+}
+.btn:hover {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--highlight-color);
 }
 /* carousel section */
 .carousel {
@@ -106,4 +112,14 @@ html , body {
 
 iframe {
     height: 32em;
+}
+/* footer */
+.address {
+    color: var(--primary_color);
+}
+.copyright{
+    color: var(--primary_color);
+}
+.copyright .fa-solid {
+    color: var(--primary_color);
 }
